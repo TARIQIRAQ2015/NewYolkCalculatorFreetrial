@@ -8,5 +8,5 @@ healthcheckPath = "/"
 healthcheckTimeout = 100
 restartPolicyType = "on-failure"
 
-[environments]
-PORT = 8501 
+# متغيرات البيئة يجب تعيينها من خلال واجهة Railway
+# وليس هنا في ملف railway.toml 
