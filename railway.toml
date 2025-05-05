@@ -3,9 +3,7 @@ builder = "nixpacks"
 buildCommand = "pip install -r requirements.txt"
 
 [deploy]
-startCommand = "streamlit run app.py"
-healthcheckPath = "/"
-healthcheckTimeout = 100
+startCommand = "streamlit run app.py --server.enableCORS=false --server.enableXsrfProtection=false"
 
 # متغيرات البيئة يجب تعيينها من خلال واجهة Railway
 # وليس هنا في ملف railway.toml 
