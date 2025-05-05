@@ -6,7 +6,6 @@ buildCommand = "pip install -r requirements.txt"
 startCommand = "streamlit run app.py"
 healthcheckPath = "/"
 healthcheckTimeout = 100
-restartPolicyType = "on-failure"
 
 # متغيرات البيئة يجب تعيينها من خلال واجهة Railway
 # وليس هنا في ملف railway.toml 
